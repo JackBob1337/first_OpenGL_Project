@@ -1,0 +1,352 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+      Build started 11/16/2024 9:14:47 PM.
+      
+      Project "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.32
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/3.31.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-kdbbir"
+      binary: "C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-kdbbir"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-kdbbir'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_11e39.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 11/16/2024 9:14:49 PM.
+        
+        Project "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdbbir\\cmTC_11e39.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_11e39.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdbbir\\Debug\\".
+          Creating directory "cmTC_11e39.dir\\Debug\\cmTC_11e39.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_11e39.dir\\Debug\\cmTC_11e39.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_11e39.dir\\Debug\\cmTC_11e39.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11e39.dir\\Debug\\\\" /Fd"cmTC_11e39.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11e39.dir\\Debug\\\\" /Fd"cmTC_11e39.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdbbir\\Debug\\cmTC_11e39.exe" /INCREMENTAL /ILK:"cmTC_11e39.dir\\Debug\\cmTC_11e39.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-kdbbir/Debug/cmTC_11e39.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-kdbbir/Debug/cmTC_11e39.lib" /MACHINE:X64  /machine:x64 cmTC_11e39.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_11e39.vcxproj -> C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdbbir\\Debug\\cmTC_11e39.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdbbir\\Debug\\cmTC_11e39.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_11e39.dir\\Debug\\cmTC_11e39.tlog\\cmTC_11e39.write.1u.tlog" "cmTC_11e39.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdbbir\\Debug\\cmTC_11e39.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_11e39.dir\\Debug\\cmTC_11e39.tlog\\cmTC_11e39.write.1u.tlog" "cmTC_11e39.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdbbir\\Debug\\cmTC_11e39.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_11e39.dir\\Debug\\cmTC_11e39.tlog\\cmTC_11e39.write.1u.tlog" "cmTC_11e39.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_11e39.dir\\Debug\\cmTC_11e39.tlog\\unsuccessfulbuild".
+          Touching "cmTC_11e39.dir\\Debug\\cmTC_11e39.tlog\\cmTC_11e39.lastbuildstate".
+        Done Building Project "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdbbir\\cmTC_11e39.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.89
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-1bvjpx"
+      binary: "C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-1bvjpx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/vyalk/OpenGL_Project1/Dependecies/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-1bvjpx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f2540.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 11/16/2024 9:14:50 PM.
+        
+        Project "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bvjpx\\cmTC_f2540.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f2540.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bvjpx\\Debug\\".
+          Creating directory "cmTC_f2540.dir\\Debug\\cmTC_f2540.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f2540.dir\\Debug\\cmTC_f2540.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f2540.dir\\Debug\\cmTC_f2540.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f2540.dir\\Debug\\\\" /Fd"cmTC_f2540.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bvjpx\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f2540.dir\\Debug\\\\" /Fd"cmTC_f2540.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bvjpx\\src.c"
+          src.c
+        C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bvjpx\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bvjpx\\cmTC_f2540.vcxproj]
+        Done Building Project "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bvjpx\\cmTC_f2540.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bvjpx\\cmTC_f2540.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bvjpx\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bvjpx\\cmTC_f2540.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-s15j78"
+      binary: "C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-s15j78"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/vyalk/OpenGL_Project1/Dependecies/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-s15j78'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b0e0b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 11/16/2024 9:14:51 PM.
+        
+        Project "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s15j78\\cmTC_b0e0b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b0e0b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s15j78\\Debug\\".
+          Creating directory "cmTC_b0e0b.dir\\Debug\\cmTC_b0e0b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b0e0b.dir\\Debug\\cmTC_b0e0b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b0e0b.dir\\Debug\\cmTC_b0e0b.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0e0b.dir\\Debug\\\\" /Fd"cmTC_b0e0b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s15j78\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0e0b.dir\\Debug\\\\" /Fd"cmTC_b0e0b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s15j78\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s15j78\\Debug\\cmTC_b0e0b.exe" /INCREMENTAL /ILK:"cmTC_b0e0b.dir\\Debug\\cmTC_b0e0b.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-s15j78/Debug/cmTC_b0e0b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-s15j78/Debug/cmTC_b0e0b.lib" /MACHINE:X64  /machine:x64 cmTC_b0e0b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s15j78\\cmTC_b0e0b.vcxproj]
+        Done Building Project "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s15j78\\cmTC_b0e0b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s15j78\\cmTC_b0e0b.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s15j78\\cmTC_b0e0b.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-6rio3r"
+      binary: "C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-6rio3r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/vyalk/OpenGL_Project1/Dependecies/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-6rio3r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9e19c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 11/16/2024 9:14:52 PM.
+        
+        Project "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rio3r\\cmTC_9e19c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9e19c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rio3r\\Debug\\".
+          Creating directory "cmTC_9e19c.dir\\Debug\\cmTC_9e19c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9e19c.dir\\Debug\\cmTC_9e19c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9e19c.dir\\Debug\\cmTC_9e19c.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e19c.dir\\Debug\\\\" /Fd"cmTC_9e19c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rio3r\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e19c.dir\\Debug\\\\" /Fd"cmTC_9e19c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rio3r\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rio3r\\Debug\\cmTC_9e19c.exe" /INCREMENTAL /ILK:"cmTC_9e19c.dir\\Debug\\cmTC_9e19c.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-6rio3r/Debug/cmTC_9e19c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/vyalk/OpenGL_Project1/OpenGL_Project1/build/CMakeFiles/CMakeScratch/TryCompile-6rio3r/Debug/cmTC_9e19c.lib" /MACHINE:X64  /machine:x64 cmTC_9e19c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rio3r\\cmTC_9e19c.vcxproj]
+        Done Building Project "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rio3r\\cmTC_9e19c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rio3r\\cmTC_9e19c.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\vyalk\\OpenGL_Project1\\OpenGL_Project1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rio3r\\cmTC_9e19c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.39
+        
+      exitCode: 1
+...
